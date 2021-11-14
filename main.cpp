@@ -10,7 +10,7 @@ int main() {
     else {
         cout << "1" << endl;
         cout << "1" << endl;
-        for (cont = 2; cont < n; cont++) {
+        for (cont = 2; cont <= n; cont++) {
             terzo = primo + secondo;
             primo = secondo;
             secondo = terzo;
