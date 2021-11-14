@@ -4,7 +4,7 @@ int main() {
     int n=0, primo=1, secondo=1, terzo=0, cont=0 ;
 
     cin >> n ;
-    if (n <=0) {
+    if (n <0) {
         return 0;
     }
     else {
