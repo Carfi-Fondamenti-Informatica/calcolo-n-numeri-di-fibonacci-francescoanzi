@@ -8,7 +8,7 @@ int n=0, primo=1, secondo=1, fibonacci=0;
 
 cin>> n;
 
-        if(n<=2){
+        if(n<2){
             cout<<"errore"<<endl;
         }else{
             cout<< "1" << "\n" << "1" << endl;
